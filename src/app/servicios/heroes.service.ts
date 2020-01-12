@@ -57,13 +57,17 @@ export class HeroesService {
 
 
     constructor() {
-        console.log("Servicio listo para usar!!!");
+        //console.log("Servicio listo para usar!!!");
     }
 
 
     //Metodo para traer los heroes.
     getHeroes() {
         return this.heroes;
+    }
+
+    getHeroe(index: number){
+        return this.heroes[index];
     }
 
  
